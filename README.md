@@ -149,8 +149,8 @@ By Eloquent filter implementation, you can use all the documented filters!
 ```
 4- Ensure that you reload your config-cache via `php artisan optimize` or trough the Artisan commands:
 ```bash
-php artisan config:cache // creates/updates config cache
-php artisan config:clear // clears config cache
+php artisan config:cache
+php artisan config:clear
 ```
 
 That's it enjoy! :boom:
