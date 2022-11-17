@@ -147,6 +147,12 @@ By Eloquent filter implementation, you can use all the documented filters!
     'EloquentFilter' => eloquentFilter\Facade\EloquentFilter::class,
 ],
 ```
+4- Ensure that you reload your config-cache via `php artisan optimize` or trough the Artisan commands:
+```bash
+php artisan config:cache // creates/updates config cache
+php artisan config:clear // clears config cache
+```
+
 That's it enjoy! :boom:
 ## :book: Basic Usage
 
